@@ -25,8 +25,9 @@
 <body>
 	<div id="mySidenav" class="sidenav">
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		<a href="/ProdEmployee/dashboard">DashBoard</a>
-		<a class="btn btn-primary" href="/ProdEmployee/home" role="button">Productive Hours</a>
+		<a href="/ProdEmployee/dashboard">DashBoard</a> <a
+			class="btn btn-primary" href="/ProdEmployee/home" role="button">Productive
+			Hours</a>
 	</div>
 	<span style="font-size: 30px; cursor: pointer" onclick="openNav()">&#9776;
 		Menu</span>
@@ -73,8 +74,5 @@
 			</c:forEach>
 		</tbody>
 	</table>
-	
-
-
 </body>
 </html>

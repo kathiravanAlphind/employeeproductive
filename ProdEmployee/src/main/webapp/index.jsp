@@ -17,7 +17,7 @@
 	href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 
 <!--Custom styles-->
-<link rel="stylesheet" href="main1.css"> 
+<link rel="stylesheet" href="main1.css">
 
 </head>
 <body>
@@ -29,7 +29,9 @@
 			<div class="d-flex justify-content-center h-80">
 				<div class="card">
 					<div class="card-header">
-						<center><img src="ALPHIND_Logo1.png" width="60%"></center>
+						<center>
+							<img src="ALPHIND_Logo1.png" width="60%">
+						</center>
 					</div>
 					<div class="card-body">
 

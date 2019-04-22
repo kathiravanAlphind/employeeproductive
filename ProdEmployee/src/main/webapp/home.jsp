@@ -1,4 +1,5 @@
- <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1" isELIgnored="false"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page import="com.alphind.model.Projects"%>
@@ -22,8 +23,8 @@
 <body>
 	<div id="mySidenav" class="sidenav">
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		<a href="/ProdEmployee/dashboard">DashBoard</a>
-		<a href="/ProdEmployee/home">Productive Hours</a>
+		<a href="/ProdEmployee/dashboard">DashBoard</a> <a
+			href="/ProdEmployee/home">Productive Hours</a>
 	</div>
 	<span style="font-size: 30px; cursor: pointer" onclick="openNav()">&#9776;
 		Menu</span>
