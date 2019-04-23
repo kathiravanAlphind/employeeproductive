@@ -23,15 +23,14 @@
 <script src="menu.js"></script>
 </head>
 <body>
-<jsp:include page="sidemenu.jsp"></jsp:include>
-<!-- 	<div id="mySidenav" class="sidenav">
+	<div id="mySidenav" class="sidenav">
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		<a href="/ProdEmployee/dashboard">DashBoard</a> <a
 			class="btn btn-primary" href="/ProdEmployee/home" role="button">Productive
 			Hours</a>
 	</div>
 	<span style="font-size: 30px; cursor: pointer" onclick="openNav()">&#9776;
-		Menu</span> -->
+		Menu</span>
 	<form action=select method="post">
 		<input name="date" type="month" value="${date }"> <input
 			type="submit" value="Select">
