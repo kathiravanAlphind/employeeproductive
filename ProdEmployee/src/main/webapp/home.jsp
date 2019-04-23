@@ -21,11 +21,7 @@
 
 <script src="menu.js"></script>
 <body>
-	<div id="mySidenav" class="sidenav">
-		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		<a href="/ProdEmployee/dashboard">DashBoard</a> <a
-			href="/ProdEmployee/home">Productive Hours</a>
-	</div>
+	<jsp:include page="sidemenu.jsp"></jsp:include>
 	<span style="font-size: 30px; cursor: pointer" onclick="openNav()">&#9776;
 		Menu</span>
 	<form action="submit" method="get">
