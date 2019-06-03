@@ -38,7 +38,7 @@
 								<span class="input-group-text"><i class="fas fa-user"></i></span>
 							</div>
 							<input type="text" class="form-control" placeholder="username"
-								name="uname">
+								name="uname" required="required">
 
 						</div>
 						<div class="input-group form-group">
@@ -46,7 +46,7 @@
 								<span class="input-group-text"><i class="fas fa-key"></i></span>
 							</div>
 							<input type="password" class="form-control"
-								placeholder="password" name="pass">
+								placeholder="password" name="pass" required="required">
 						</div>
 						<div class="form-group">
 							<input type="submit" value="Login"

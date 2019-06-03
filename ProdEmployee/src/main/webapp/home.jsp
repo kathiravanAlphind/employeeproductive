@@ -48,7 +48,7 @@
 					<c:forEach items="${projects.employees}" var="employees">
 						<tr>
 							<td>${employees.fname}</td>
-							<td><input name='${employees.htmlname}' type="number"></td>
+							<td><input name='${employees.htmlname}' type="number" required="required"></td>
 						</tr>
 					</c:forEach>
 				</c:forEach>
