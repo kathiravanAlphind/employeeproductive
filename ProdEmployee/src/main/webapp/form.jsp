@@ -28,6 +28,8 @@
 		<a href="/ProdEmployee/dashboard">DashBoard</a> <a
 			class="btn btn-primary" href="/ProdEmployee/home" role="button">Productive
 			Hours</a>
+			<a
+			href="/ProdEmployee/">Log Out</a>
 	</div>
 	<span style="font-size: 30px; cursor: pointer" onclick="openNav()">&#9776;
 		Menu</span>

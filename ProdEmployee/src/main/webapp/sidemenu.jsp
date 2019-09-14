@@ -18,6 +18,9 @@
 			href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		<a href="/ProdEmployee/dashboard">DashBoard</a> <a
 			href="/ProdEmployee/home">Productive Hours</a>
+			<a
+			href="/ProdEmployee/">Log Out</a>
+			
 	</div>
 	<span style="font-size: 30px; cursor: pointer" onclick="openNav()">&#9776;
 		Alphind</span>

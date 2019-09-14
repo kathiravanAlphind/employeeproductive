@@ -1,5 +1,13 @@
 <html>
 <head>
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 <link
 	href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
 	rel="stylesheet" id="bootstrap-css">
@@ -7,53 +15,47 @@
 	src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script
 	src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<title>Login Page</title>
-<!--Bootsrap 4 CDN-->
-<link rel="stylesheet"
-	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
-<!--Fontawesome CDN-->
-<link rel="stylesheet"
-	href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+
+
+<title>Login Page</title>
 
 <!--Custom styles-->
-<link rel="stylesheet" href="main1.css"> 
+<link rel="stylesheet" href="index.css">
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		M.updateTextFields();
+	});
+</script>
 
 </head>
 <body>
-	<header>
-		<h1 style="color: darkorange;">Full Time Equivalents</h1>
-	</header>
 	<form action="login" method="post">
 		<div class="container">
 			<div class="d-flex justify-content-center h-80">
 				<div class="card">
 					<div class="card-header">
-						<center><img src="ALPHIND_Logo1.png" width="60%"></center>
+						<img src="ALPHIND_Logo1.png" class="image">
 					</div>
 					<div class="card-body">
-
-						<div class="input-group form-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text"><i class="fas fa-user"></i></span>
-							</div>
-							<input type="text" class="form-control" placeholder="username"
-								name="uname" required="required">
-
+						<div class="input-field">
+							<i class="material-icons prefix">account_circle</i><input
+								id="icon_prefix" type="text" class="validate input-field"
+								placeholder="username" name="uname" required="required"
+								autocomplete="off">
 						</div>
-						<div class="input-group form-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text"><i class="fas fa-key"></i></span>
-							</div>
-							<input type="password" class="form-control"
-								placeholder="password" name="pass" required="required">
+						<div class="input-field">
+							<i class="material-icons prefix">vpn_key</i> <input
+								type="password" class="validate" placeholder="password"
+								name="pass" required="required">
 						</div>
-						<div class="form-group">
-							<input type="submit" value="Login"
-								class="btn float-right login_btn">
-							<!-- <button class="btn float-left login_btn"><a href="register.jsp">Register</a></button> -->
-						</div>
-
+					</div>
+					<div class="form-group card-footer">
+						<input type="submit" value="Login"
+							class="btn float-right login_btn">
 					</div>
 				</div>
 			</div>
