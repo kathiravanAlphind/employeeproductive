@@ -184,6 +184,7 @@ public class EmployeeController {
 		return model;
 	}
 	
+
 	@RequestMapping(value = "/", method = {RequestMethod.POST, RequestMethod.GET})
 	public ModelAndView logout(HttpSession session, ModelAndView model)
 	{
